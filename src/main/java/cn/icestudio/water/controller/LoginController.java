@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
  * Date: 2018-11-17
  */
 @RestController
+@RequestMapping("/login")
 public class LoginController {
     @RequestMapping
     public String index(String username,String password){
